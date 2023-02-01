@@ -1,5 +1,5 @@
-let greet = (() => { 
-return "welcome"
+let greet = ((a,b) => { 
+return a + b
 })
 
-console.log(greet());
+console.log(greet(2,4));
