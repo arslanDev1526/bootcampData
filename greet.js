@@ -1,5 +1,7 @@
-let greet = (() => { 
-return "Welcome"
-})
 
-console.log(greet());
+const greet = (name) => {
+    return `Hello, ${name}!`;
+  };
+
+
+  console.log(greet("arslan"))
